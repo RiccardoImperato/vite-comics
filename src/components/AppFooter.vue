@@ -3,7 +3,19 @@ export default {}
 </script> 
 
 <template>
-    <h2>Footer</h2>
+    <footer>
+        <div class="container">
+            Footer
+        </div>
+    </footer>
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+@use '../styles/partials/variables' as *;
+
+footer {
+    background-color: $footer-bg;
+    color: #fff;
+    padding: 50px 0;
+}
+</style>

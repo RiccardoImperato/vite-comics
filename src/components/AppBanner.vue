@@ -3,18 +3,18 @@ export default {}
 </script> 
 
 <template>
-    <main>
+    <div class="banner">
         <div class="container">
-            Content goes here
+            Banner
         </div>
-    </main>
+    </div>
 </template>
 
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
 
-main {
-    background-color: $main-bg;
+.banner {
+    background-color: $banner-bg;
     color: #fff;
     padding: 50px 0;
 }
