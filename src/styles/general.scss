@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 1280px;
     margin: 0 auto;
@@ -12,5 +16,4 @@
 header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }

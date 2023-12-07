@@ -5,20 +5,20 @@ export default {}
 <template>
     <header>
         <div class="container">
-            <div>
+            <div class="logo">
                 <img src="/img/dc-logo.png" alt="">
             </div>
             <ul>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
-                <li>menu</li>
+                <li>Characters</li>
+                <li>Comics</li>
+                <li>Movies</li>
+                <li>Tv</li>
+                <li>Games</li>
+                <li>Collectibles</li>
+                <li>Videos</li>
+                <li>Fans</li>
+                <li>News</li>
+                <li>Shop</li>
             </ul>
         </div>
     </header>
@@ -28,11 +28,15 @@ export default {}
 @use '../styles/partials/variables' as *;
 
 header {
-    padding: 10px 0;
+    color: #464646;
     background-color: $header-bg;
 
+    .logo {
+        padding: 10px 0;
+    }
+
     img {
-        width: 80px;
+        height: 80px;
         display: block;
     }
 }
@@ -41,9 +45,20 @@ ul {
     all: unset;
     list-style-type: none;
     display: flex;
+    gap: 30px;
 
     li {
-        padding: 25px 15px;
+        line-height: 80px;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        border-top: 5px solid transparent;
+    }
+
+    li:hover {
+        color: $banner-bg;
+        border-bottom: 5px solid $banner-bg;
     }
 }
 </style>
