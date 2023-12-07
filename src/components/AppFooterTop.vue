@@ -69,25 +69,14 @@ export default {}
             </div>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            Footer
-        </div>
-    </footer>
 </template>
 
 <style scoped lang="scss">
 @use '../styles/partials/variables' as *;
 
-footer {
-    background-color: $footer-bg;
-    color: #fff;
-    padding: 50px 0;
-}
-
 .bg {
     color: #fff;
-    background-image: url(../../public/img/footer-bg.jpg);
+    background-image: url(/img/footer-bg.jpg);
     background-size: cover;
     overflow: hidden;
 

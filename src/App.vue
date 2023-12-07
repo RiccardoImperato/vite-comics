@@ -1,14 +1,17 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 import AppBanner from './components/AppBanner.vue';
 
 export default {
   components: {
     AppHeader,
     AppMain,
-    AppFooter,
+    AppFooterTop,
+    AppFooterBottom,
+
     AppBanner
   }
 }
@@ -18,7 +21,8 @@ export default {
   <AppHeader />
   <AppMain />
   <AppBanner />
-  <AppFooter />
+  <AppFooterTop />
+  <AppFooterBottom />
 </template>
 
 <style lang="scss">
