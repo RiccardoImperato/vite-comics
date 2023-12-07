@@ -31,13 +31,18 @@ header {
     color: #464646;
     background-color: $header-bg;
 
-    .logo {
-        padding: 10px 0;
-    }
+    .container {
+        display: flex;
+        justify-content: space-between;
 
-    img {
-        height: 80px;
-        display: block;
+        .logo {
+            padding: 10px 0;
+        }
+
+        img {
+            height: 80px;
+            display: block;
+        }
     }
 }
 

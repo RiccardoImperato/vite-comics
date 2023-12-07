@@ -36,7 +36,7 @@ export default {}
 footer {
     background-color: $footer-bg;
     color: #fff;
-    padding: 50px 0;
+    padding: 30px 0;
 
     .container {
         display: flex;
@@ -45,6 +45,7 @@ footer {
 
         button {
             all: unset;
+            cursor: pointer;
             padding: 15px;
             text-transform: uppercase;
             font-weight: bold;

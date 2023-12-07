@@ -11,7 +11,6 @@ export default {
     AppMain,
     AppFooterTop,
     AppFooterBottom,
-
     AppBanner
   }
 }
