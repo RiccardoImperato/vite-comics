@@ -11,24 +11,48 @@ export default {}
                         <li>
                             <h3>Dc comics</h3>
                         </li>
-                        <li>Characters</li>
-                        <li>Comics</li>
-                        <li>Movies</li>
-                        <li>Tv</li>
-                        <li>Games</li>
-                        <li>Collectibles</li>
-                        <li>Videos</li>
-                        <li>Fans</li>
-                        <li>News</li>
-                        <li>Shop</li>
+                        <li>
+                            <a href="#">Characters</a>
+                        </li>
+                        <li>
+                            <a href="#">Comics</a>
+                        </li>
+                        <li>
+                            <a href="#">Movies</a>
+                        </li>
+                        <li>
+                            <a href="#">Tv</a>
+                        </li>
+                        <li>
+                            <a href="#">Games</a>
+                        </li>
+                        <li>
+                            <a href="#">Collectibles</a>
+                        </li>
+                        <li>
+                            <a href="#">Videos</a>
+                        </li>
+                        <li>
+                            <a href="#">Fans</a>
+                        </li>
+                        <li>
+                            <a href="#">News</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
                     </ul>
                     <div>
                         <ul>
                             <li>
                                 <h3>Shop</h3>
                             </li>
-                            <li>Shop DC</li>
-                            <li>Shop DC Collectibles</li>
+                            <li>
+                                <a href="#">Shop DC</a>
+                            </li>
+                            <li>
+                                <a href="#">Shop DC Collectibles</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -37,17 +61,39 @@ export default {}
                         <li>
                             <h3>Dc</h3>
                         </li>
-                        <li>Terms Of Use</li>
-                        <li>Privacy policy (New)</li>
-                        <li>Ad Choices</li>
-                        <li>Advertising</li>
-                        <li>Jobs</li>
-                        <li>Subscriptions</li>
-                        <li>Talent Workshops</li>
-                        <li>CPSC Certificates</li>
-                        <li>Ratings</li>
-                        <li>Shop Help</li>
-                        <li>Contact Us</li>
+                        <li>
+                            <a href="#">Terms Of Use</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy policy (New)</a>
+                        </li>
+                        <li>
+                            <a href="#">Ad Choices</a>
+                        </li>
+                        <li>
+                            <a href="#">Advertising</a>
+                        </li>
+                        <li>
+                            <a href="#">Jobs</a>
+                        </li>
+                        <li>
+                            <a href="#">Subscriptions</a>
+                        </li>
+                        <li>
+                            <a href="#">Talent Workshops</a>
+                        </li>
+                        <li>
+                            <a href="#">CPSC Certificates</a>
+                        </li>
+                        <li>
+                            <a href="#">Ratings</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop Help</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -55,11 +101,21 @@ export default {}
                         <li>
                             <h3>Site</h3>
                         </li>
-                        <li>DC</li>
-                        <li>MAD Magazine</li>
-                        <li>DC Kids</li>
-                        <li>DC Univers</li>
-                        <li>DC Power Visa</li>
+                        <li>
+                            <a href="#">DC</a>
+                        </li>
+                        <li>
+                            <a href="#">MAD Magazine</a>
+                        </li>
+                        <li>
+                            <a href="#">DC Kids</a>
+                        </li>
+                        <li>
+                            <a href="#">DC Univers</a>
+                        </li>
+                        <li>
+                            <a href="#">DC Power Visa</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -103,19 +159,24 @@ export default {}
         padding: 30px 0;
 
         ul {
-            margin-bottom: 25px;
+            all: unset;
             list-style-type: none;
+            margin-bottom: 25px;
             color: #959595;
             font-size: 14px;
 
             h3 {
                 color: #fff;
                 text-transform: uppercase;
-                margin-bottom: 20px;
+                margin: 20px 0;
             }
 
             li {
                 margin: 8px 0;
+            }
+
+            a:hover {
+                filter: brightness(2);
             }
         }
     }

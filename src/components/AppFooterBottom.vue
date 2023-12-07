@@ -10,19 +10,30 @@ export default {}
                 <span>Follow Us</span>
                 <ul>
                     <li>
-                        <img src="/img/footer-facebook.png">
+                        <a href="#">
+                            <img src="/img/footer-facebook.png">
+                        </a>
                     </li>
                     <li>
-                        <img src="/img/footer-twitter.png">
+                        <a href="#">
+                            <img src="/img/footer-twitter.png">
+                        </a>
                     </li>
                     <li>
-                        <img src="/img/footer-youtube.png">
+                        <a href="#">
+                            <img src="/img/footer-youtube.png">
+                        </a>
                     </li>
                     <li>
-                        <img src="/img/footer-pinterest.png">
+                        <a href="#">
+                            <img src="/img/footer-pinterest.png">
+
+                        </a>
                     </li>
                     <li>
-                        <img src="/img/footer-periscope.png">
+                        <a href="#">
+                            <img src="/img/footer-periscope.png">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -49,6 +60,10 @@ footer {
             padding: 15px;
             text-transform: uppercase;
             font-weight: bold;
+            border: 2px solid transparent;
+        }
+
+        button:hover {
             border: 2px solid $banner-bg;
         }
 
@@ -67,7 +82,12 @@ footer {
                 all: unset;
                 list-style-type: none;
                 display: flex;
+                flex-wrap: wrap;
                 gap: 20px;
+            }
+
+            a:hover {
+                filter: brightness(2);
             }
         }
     }

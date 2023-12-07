@@ -8,25 +8,25 @@ export default {}
             <ul>
                 <li>
                     <img src="/img/buy-comics-digital-comics.png">
-                    <span>
+                    <a href="#">
                         Digital comics
-                    </span>
+                    </a>
                 </li>
                 <li>
                     <img src="/img/buy-comics-merchandise.png">
-                    <span>Dc merchandise</span>
+                    <a href="#">Dc merchandise</a>
                 </li>
                 <li>
                     <img src="/img/buy-comics-subscriptions.png">
-                    <span>Subscription</span>
+                    <a href="#">Subscription</a>
                 </li>
                 <li>
                     <img src="/img/buy-comics-shop-locator.png">
-                    <span>Comic Shop locator</span>
+                    <a href="#">Comic Shop locator</a>
                 </li>
                 <li>
                     <img src="/img/buy-dc-power-visa.svg">
-                    <span>Dc power visa</span>
+                    <a href="#">Dc power visa</a>
                 </li>
             </ul>
         </div>
@@ -48,6 +48,7 @@ export default {}
             all: unset;
             list-style-type: none;
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: space-between;
         }
@@ -64,12 +65,10 @@ export default {}
                 height: 50px;
             }
 
-            span {
+            a {
                 margin-left: 15px;
             }
         }
     }
-
-
 }
 </style>
