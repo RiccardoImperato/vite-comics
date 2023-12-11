@@ -80,11 +80,11 @@ ul {
         text-transform: uppercase;
         font-size: 12px;
         border-top: 5px solid transparent;
-    }
 
-    li:hover {
-        color: $banner-bg;
-        border-bottom: 5px solid $banner-bg;
+        &:hover {
+            color: $banner-bg;
+            border-bottom: 5px solid $banner-bg;
+        }
     }
 }
 </style>

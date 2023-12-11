@@ -1,12 +1,16 @@
 <script>
-export default {}
+import Comics from './Comics.vue';
+
+export default {
+    components: {
+        Comics
+    }
+}
 </script> 
 
 <template>
     <main>
-        <div class="container">
-            Content goes here
-        </div>
+        <Comics />
     </main>
 </template>
 
@@ -16,6 +20,6 @@ export default {}
 main {
     background-color: $main-bg;
     color: #fff;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 </style>

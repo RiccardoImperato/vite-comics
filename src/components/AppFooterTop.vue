@@ -173,10 +173,10 @@ export default {}
 
             li {
                 margin: 8px 0;
-            }
 
-            a:hover {
-                filter: brightness(2);
+                a:hover {
+                    filter: brightness(2);
+                }
             }
         }
     }

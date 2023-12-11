@@ -61,10 +61,10 @@ footer {
             text-transform: uppercase;
             font-weight: bold;
             border: 2px solid transparent;
-        }
 
-        button:hover {
-            border: 2px solid $banner-bg;
+            &:hover {
+                border: 2px solid $banner-bg;
+            }
         }
 
         div {
@@ -84,10 +84,10 @@ footer {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 20px;
-            }
 
-            a:hover {
-                filter: brightness(2);
+                a:hover {
+                    filter: brightness(2);
+                }
             }
         }
     }
