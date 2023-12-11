@@ -4,6 +4,7 @@ import AppMain from './components/AppMain.vue';
 import AppFooterTop from './components/AppFooterTop.vue';
 import AppFooterBottom from './components/AppFooterBottom.vue';
 import AppBanner from './components/AppBanner.vue';
+import Jumbo from './components/Jumbo.vue';
 
 export default {
   components: {
@@ -12,12 +13,14 @@ export default {
     AppFooterTop,
     AppFooterBottom,
     AppBanner,
+    Jumbo
   }
 }
 </script>
 
 <template>
   <AppHeader />
+  <Jumbo />
   <AppMain />
   <AppBanner />
   <AppFooterTop />
