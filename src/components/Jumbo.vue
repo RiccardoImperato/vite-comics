@@ -9,7 +9,7 @@ export default {}
 <style scoped lang="scss">
 .jumbo {
     height: 400px;
-    background-image: url(/img/jumbotron.jpg);
+    background-image: url(../assets/img/jumbotron.jpg);
     background-size: cover;
     background-position: top center;
 }

@@ -132,7 +132,7 @@ export default {}
 
 .bg {
     color: #fff;
-    background-image: url(/img/footer-bg.jpg);
+    background-image: url(../assets/img/footer-bg.jpg);
     background-size: cover;
     overflow: hidden;
 
